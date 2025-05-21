@@ -1,0 +1,35 @@
+# Byte-code files
+*.pyc
+__pycache__/
+
+# Virtual environment
+# Specific name from Readme.md
+llm/
+# Common names
+venv/
+.venv/
+env/
+
+# Distribution / build files
+dist/
+build/
+*.egg-info/
+
+# Environment file (contains sensitive keys)
+.env
+
+# Editor/IDE specific files (add more as needed)
+.idea/
+.vscode/
+*.swp
+
+# Test / Coverage files
+.coverage
+htmlcov/
+
+# Jupyter Notebook specific files
+.ipynb_checkpoints/
+
+# OS generated files
+.DS_Store
+Thumbs.db
