@@ -1,3 +1,7 @@
+# Overview
+
+This repo contains code examples of using LangChain
+
 # Basics
 ## Large language models (LLMs) 
 - Deep learning models trained on massive amounts of text data to understand and generate human language
@@ -9,6 +13,7 @@
 
 
 # Prerequisite
+You'll need to set up your own API key (LLM of your choice)
 API key - Gemini used here, but any of HuggingFace, Anthropic, OpenAPI would work
 
 # Setup
@@ -16,11 +21,10 @@ API key - Gemini used here, but any of HuggingFace, Anthropic, OpenAPI would wor
 ```bash
 conda create -n llm python=3.13
 conda activate llm
-pip install google-generativeai # if using Google API
-pip install langchain langchain-openai openai  # if using OpenAI API
-pip install huggingface_hub # if using HuggingFace API
+pip install google-genai langchain_google_genai # if using Google API
+#pip install langchain langchain-openai openai  # if using OpenAI API
+#pip install huggingface_hub # if using HuggingFace API
 pip install python-dotenv
-pip install pillow # to read and manipulate images
 ```
 
 ## OpenAI API key
