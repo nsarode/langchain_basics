@@ -1,6 +1,19 @@
+![Google Gemini](https://img.shields.io/badge/google%20gemini-8E75B2?style=for-the-badge&logo=google%20gemini&logoColor=white)
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
 # Overview
 
-This repo contains code examples of using LangChain
+This repo contains code examples of using LangChain. The material follows and extends from following sources
+1. [Gemini Developer API documentation](https://ai.google.dev/gemini-api/docs)
+2. [First steps with LangChain tutorial by RealPython](https://realpython.com/courses/first-steps-langchain/)
+
+## Topics covered
+
+1. Use **chat models** with LangChain
+2. Scaffold & reuse **prompts** with **templates**
+3. Build **chains** to connect multi-step processes
+4. Inspect input & outputs with **debug mode**
 
 # Basics
 ## Large language models (LLMs) 
