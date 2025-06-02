@@ -1,6 +1,7 @@
 ![Google Gemini](https://img.shields.io/badge/google%20gemini-8E75B2?style=for-the-badge&logo=google%20gemini&logoColor=white)
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C.svg?style=for-the-badge&logo=LangChain&logoColor=white)
 
 # Overview
 
@@ -34,7 +35,7 @@ API key - Gemini used here, but any of HuggingFace, Anthropic, OpenAPI would wor
 ```bash
 conda create -n llm python=3.13
 conda activate llm
-pip install google-genai langchain_google_genai # if using Google API
+pip install langchain google-genai langchain_google_genai # if using Google API
 #pip install langchain langchain-openai openai  # if using OpenAI API
 #pip install huggingface_hub # if using HuggingFace API
 pip install python-dotenv
