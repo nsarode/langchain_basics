@@ -33,3 +33,6 @@ htmlcov/
 # OS generated files
 .DS_Store
 Thumbs.db
+
+# lang(graph/chain) generated files
+*.pckl
